@@ -1,0 +1,23 @@
+{
+  "name": "quiz-trainer",
+  "version": "1.0.0",
+  "description": "Quiz Trainer PWA per Concorso MIC - 1500 posti",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "deploy": "npm run build && gh-pages -d dist"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.20.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.2.1",
+    "vite": "^5.0.8",
+    "vite-plugin-pwa": "^0.17.4",
+    "gh-pages": "^6.1.0"
+  }
+}
